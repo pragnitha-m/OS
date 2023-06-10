@@ -4,12 +4,12 @@ void main()
 		int i,j,n,temp1,temp2,AT[10],BT[10],CT[10],TAT[10],WT[10];
 		printf("\nEnter the number of processes: ");
 		scanf("%d",&n);
-		printf("\nEnter the arrival times of all processes: ");
+		printf("\nEnter the arrival times of all processes:\n");
 		for(i=0;i<n;i++)
 		{
 				scanf("%d",&AT[i]);
 		}
-		printf("\nEnter burst times of all processes: ");
+		printf("\nEnter burst times of all processes:\n");
 		for(i=0;i<n;i++)
 		{
 				scanf("%d",&BT[i]);
@@ -64,13 +64,15 @@ void main()
 
 OUTPUT:
 Enter the number of processes: 6
-Enter the arrival times of all processes: 2
+Enter the arrival times of all processes: 
+2
 1
 5
 4
 0
 3
-Enter burst times of all processes: 2
+Enter burst times of all processes: 
+2
 3
 2
 3
