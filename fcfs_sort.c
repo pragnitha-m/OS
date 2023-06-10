@@ -16,22 +16,22 @@ void main()
 		}
 		for (i=0;i<n-1;i++)
 		{
-        	for (j=0;j<n-i-1;j++)
+        		for (j=0;j<n-i-1;j++)
 			{
-            	if (AT[j]>AT[j + 1])
+            			if (AT[j]>AT[j + 1])
 				{
-                	temp1=AT[j];
+                			temp1=AT[j];
 					AT[j]=AT[j+1];
 					AT[j+1]=temp1;
 					temp2=BT[j];
 					BT[j]=BT[j+1];
 					BT[j+1]=temp2;
-            	}
-        	}
+            			}
+        		}
 		}
 		printf("\nThe Arrival times after sorting are:\n");
-        for(i=0;i<n;i++)
-        {
+        	for(i=0;i<n;i++)
+        	{
 				printf("%d ",AT[i]);
 		}
 		printf("\nThe Burst times after sorting are:\n");
