@@ -60,3 +60,15 @@ int main()
 		}
 		return 0;
 }
+
+Output:
+Enter the size of the buffer: 1
+Enter 1 for Producer, 2 for Consumer and 3 to Exit: 1
+After producing no.of items in buffer: 1
+Enter 1 for Producer, 2 for Consumer and 3 to Exit: 1
+Unable to Produce
+Enter 1 for Producer, 2 for Consumer and 3 to Exit: 2
+After consuming no.of items in buffer: 0
+Enter 1 for Producer, 2 for Consumer and 3 to Exit: 2
+Unable to Consume
+Enter 1 for Producer, 2 for Consumer and 3 to Exit: 3
