@@ -30,3 +30,28 @@ int main(){
          }while(choice==1);
          return 1;
 }
+
+Output:
+Enter the no.of pages in memory: 4
+Enter page size: 4
+Enter the no.of frames: 6
+Enter the page table
+(Enter frame number as -1 if that page is not present in any frame)
+page no	         frame no
+0		5
+
+1		6
+
+2		1
+
+3		2
+
+Enter the logical address(i.e,page no & offset): 0 0
+Physical address (i.e, frame no & offset): 5,0
+
+To continue press '1' & To exit press '0': 1
+
+Enter the logical address(i.e,page no & offset): 3 1
+Physical address (i.e, frame no & offset): 2,1
+
+To continue press '1' & To exit press '0': 0
